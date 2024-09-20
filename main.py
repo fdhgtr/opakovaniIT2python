@@ -1,4 +1,4 @@
-import random #funkce pro random generování čísel
+import random #funkce pro náhodné generování čísel
 
 jmeno = "Tobiáš" 
 prijmeni = "Kubáň" #proměnná pro jméno a příjmení
