@@ -1,3 +1,5 @@
+import random #funkce pro random generování čísel
+
 jmeno = "Tobiáš" 
 prijmeni = "Kubáň" #proměnná pro jméno a příjmení
 
@@ -29,9 +31,8 @@ try:
     vek2 = int(input("Zadejte svůj věk: ")) #získání věku od uživatele a převod na číslo
     print("Děkuji") #potvrzení o úspěšném zadání čísla
 except ValueError:
-    print("Zadej jen celočíselnou hodnotu.") #text který se ukáže když zadáte něco jiného než číslo
+    print("Zadej celočíselnou hodnotu.") #text který se ukáže když zadáte něco jiného než číslo
 
-import random #funkce pro random generování čísel
 
 w = random.randint(1, 10)#generování náhodného čísla mezi 1 a 10
 print(w)#výpis náhodného čísla
