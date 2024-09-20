@@ -21,11 +21,11 @@ jablka = 6 #hodnota proměnné
 
 
 
-hrušky = 0 #proměnné pro hrušky
+l = 0 #proměnné pro hrušky
 
 for i in range(5): #cyklus který se 5x opakuje a přy každém opakování přičte 3.(akorát že se neopakuje 5x ale rovnou vypíše výsledek)
     hrušky += 3
-print(hrušky) #výpis výsledné hodnoty hrušek
+print(l) #výpis výsledné hodnoty hrušek
 
 try:
     vek2 = int(input("Zadejte svůj věk: ")) #získání věku od uživatele a převod na číslo
