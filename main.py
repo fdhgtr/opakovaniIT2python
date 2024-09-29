@@ -7,7 +7,6 @@ print(jmeno, prijmeni) #výpis jména a příjmení
 
 vek = input("Zadej svůj věk: ") #získání věku od uživatele jako text
 
-vek = int(vek)
 print("Zadal jsi věk:", vek) #výpis věku 
 
 
