@@ -4,7 +4,7 @@ jmeno = "Tobiáš"
 prijmeni = "Kubáň" #proměnná pro jméno a příjmení
 
 print(jmeno, prijmeni) #výpis jména a příjmení
-
+vek = int(vek)
 vek = input("Zadej svůj věk: ") #získání věku od uživatele jako text
 
 print("Zadal jsi věk:", vek) #výpis věku 
